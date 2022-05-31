@@ -50,6 +50,10 @@ namespace FizzBuzz
                    result.Insert(firstBIndex,"Fezz");
                }  
             }
+            if(IsDivisibleBy(number,17))
+            {
+                result.Reverse();
+            }
             if(result.Count==0)
             {
                 return number.ToString();

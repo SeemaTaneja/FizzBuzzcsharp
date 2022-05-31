@@ -14,9 +14,11 @@ namespace FizzBuzz
             {
                 maxNumber = int.Parse(args[0]);
             }
-
            Fizzbuzz fizzbuzz1 = new Fizzbuzz();
            fizzbuzz1.DoFizzBuzz(maxNumber);
+        // Practice test = new Practice();
+        // bool result = test.IsDivisibleBy(40 , 3);
+        // Console.WriteLine(result);
         }
     }
 }
